@@ -8,7 +8,7 @@ type Props = {
 };
 
 const page = ({ params: { projectId } }: Props) => {
-   if (!projectId) return <div>Invalid Project ID</div>;
+  if (!projectId) return <div>Invalid Project ID</div>;
   if (!process.env.WIDGET_URL) return <div>Missing WIDGET_URL</div>;
   return (
     <div>

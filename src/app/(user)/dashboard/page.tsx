@@ -25,6 +25,7 @@ const page = async (props: Props) => {
         <NewProject />
       </div>
       <ProjectsList projects={userProjects} />
+      
     </div>
   );
 };
